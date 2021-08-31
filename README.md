@@ -16,7 +16,7 @@ Test acc:
 ## Vision Transformer
 
 | Model | 1 |  Test |
-| ----------- | ----------- |   |
+| ----------- | ----------- | ----------- |
 | **Test Acc** | **0.76232** |   |
 | PATCH_SIZE | 32 |   |
 | SEQ_LEN | 50 |   |
