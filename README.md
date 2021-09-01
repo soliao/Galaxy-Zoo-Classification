@@ -17,7 +17,7 @@ Test acc:
 
 ### Patch Size
 
-| Model | default | ps8 | ps16 | ps56 |
+| Model | benchmark | pathsize_8 | pathsize_16 | pathsize_56 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | **Train Acc** | **0.7697** |  |  |  |
 | **Val Acc** | **0.7579** |  |  |  |
