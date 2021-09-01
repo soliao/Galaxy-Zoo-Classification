@@ -15,20 +15,20 @@ Test acc:
 
 ## Vision Transformer
 
-| Model | 1 |  Test |
-| ----------- | ----------- | ----------- |
-| **Test Acc** | **0.76232** |   |
-| PATCH_SIZE | 32 |   |
-| SEQ_LEN | 50 |   |
-| DEPTH | 12 |   |
-| HIDDEN_DIM | 256 | 512 |
-| k_DIM | 64 |   |
-| NUM_HEADS | 8 |   |
-| BATCH_SIZE | 64 |   |
-| lr | 3e-4 |   |
-| step_size | 1 |   |
-| gamma | 0.9 |   |
-| max_epoch | 50 |   |
-| stop_epoch | 42 |   |
-| Total trainable params | 10346245 | 39490053 |
+| Model | 1 |  2 | 3 |
+| ----------- | ----------- | ----------- | ----------- |
+| **Test Acc** | **0.76232** | **0.7483** |  |
+| PATCH_SIZE | 32 | 32 |  |
+| SEQ_LEN | 50 | 50 |  |
+| DEPTH | 12 | 12 |  |
+| HIDDEN_DIM | 256 | 512 |  |
+| k_DIM | 64 | 64 |  |
+| NUM_HEADS | 8 | 8 |  |
+| BATCH_SIZE | 64 | 64 |  |
+| lr | 3e-4 | 3e-4 |  |
+| step_size | 1 | 1 |  |
+| gamma | 0.9 | 0.9 |  |
+| max_epoch | 50 | 200 |  |
+| stop_epoch | 42 | 61 |  |
+| Total trainable params | 10346245 | 39490053 |  |
 
