@@ -21,7 +21,7 @@ Test acc:
 | PATCH_SIZE | 32 | 32 |  |
 | SEQ_LEN | 50 | 50 |  |
 | DEPTH | 12 | 12 |  |
-| HIDDEN_DIM | 256 | 512 |  |
+| HIDDEN_DIM | 256 | **512** |  |
 | k_DIM | 64 | 64 |  |
 | NUM_HEADS | 8 | 8 |  |
 | BATCH_SIZE | 64 | 64 |  |
