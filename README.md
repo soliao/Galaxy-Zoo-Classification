@@ -37,7 +37,7 @@ Test acc:
 | Total trainable params | 10346245 | 10926085 | 10019845 | 11909125 |
 
 
-### Patch Size
+### Depth
 
 | Model | benchmark | depth_8 | depth_24 | depth_32 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
