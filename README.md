@@ -17,7 +17,7 @@ Test acc:
 
 ### Patch Size
 
-| Model | benchmark | pathsize_8 | pathsize_16 | pathsize_56 |
+| Model | pathsize_32 | pathsize_8 | pathsize_16 | pathsize_56 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | **Train Acc** | **0.7697** | 0.7000 | 0.7465 |  |
 | **Val Acc** | **0.7579** | 0.6904 | 0.7289 |  |
@@ -32,8 +32,8 @@ Test acc:
 | lr | 3e-4 | | | |
 | step_size | 1 | | | |
 | gamma | 0.9 | | | |
-| best_epoch | 32 | ? | ? | ? |
-| stop_epoch | 42 | ? | ? | ? |
+| best_epoch | 32 | 39 | 42 | ? |
+| stop_epoch | 42 | 49 | 52 | ? |
 | Total trainable params | 10346245 | 10926085 | 10019845 | 11909125 |
 
 
