@@ -37,6 +37,28 @@ Test acc:
 | Total trainable params | 10346245 | 10926085 | 10019845 | 10188805 | 11909125 |
 
 
+### Learning rate decay step size (step_size)
+
+| Model | benchmark | ss_5 | ss_10 | ss_20 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| **Train Acc** | **0.7697** |  |  |  |
+| **Val Acc** | **0.7579** |  |  |  |
+| **Test Acc** | **0.7623** |  |  |
+| PATCH_SIZE | 32 |  |  |  |
+| SEQ_LEN | 50 |  |  |  |
+| DEPTH | 12 | | | |
+| HIDDEN_DIM | 256 | | | |
+| k_DIM | 64 | | | |
+| NUM_HEADS | 8 | | | |
+| BATCH_SIZE | 64 | | | |
+| lr | 3e-4 | | | |
+| step_size | 1 | 5 | 10 | 20 |
+| gamma | 0.9 | | | |
+| best_epoch | 32 |  |  |  |
+| stop_epoch | 42 |  |  |  |
+| Total trainable params | 10346245 |  |  |  |
+
+
 ### Depth
 
 | Model | benchmark | depth_8 | depth_24 | depth_32 |
