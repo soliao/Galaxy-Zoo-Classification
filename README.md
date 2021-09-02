@@ -17,13 +17,13 @@ Test acc:
 
 ### Patch Size
 
-| Model | pathsize_32 | pathsize_8 | pathsize_16 | pathsize_28 | pathsize_56 |
+| Model | pathsize_8 | pathsize_16 | pathsize_28 | pathsize_32 | pathsize_56 |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| **Train Acc** | **0.7697** | 0.7000 | 0.7465 | | 0.7494 |
-| **Val Acc** | **0.7579** | 0.6904 | 0.7289 | | 0.7387 |
-| **Test Acc** | **0.7623** | 0.7020 | 0.7373 | | 0.7408 |
-| PATCH_SIZE | 32 | 8 | 16 | 28 | 56 |
-| SEQ_LEN | 50 | 785 | 197 | 65 | 17 |
+| **Train Acc** | 0.7000 | 0.7465 | | **0.7697** | 0.7494 |
+| **Val Acc** | 0.6904 | 0.7289 | | **0.7579** | 0.7387 |
+| **Test Acc** | 0.7020 | 0.7373 | | **0.7623** | 0.7408 |
+| PATCH_SIZE | 8 | 16 | 28 | 32 | 56 |
+| SEQ_LEN | 785 | 197 | 65 | 50 | 17 |
 | DEPTH | 12 | - | - | - | - |
 | HIDDEN_DIM | 256 | - | - | - | - |
 | k_DIM | 64 | - | - | - | - |
@@ -32,9 +32,9 @@ Test acc:
 | lr | 3e-4 | - | - | - | - |
 | step_size | 1 | - | - | - | - |
 | gamma | 0.9 | - | - | - | - |
-| best_epoch | 32 | 39 | 42 | | 39 |
-| stop_epoch | 42 | 49 | 52 | | 49 |
-| Total trainable params | 10346245 | 10926085 | 10019845 | 10188805 | 11909125 |
+| best_epoch | 39 | 42 | | 32 | 39 |
+| stop_epoch | 49 | 52 | | 42 | 49 |
+| Total trainable params | 10926085 | 10019845 | 10188805 | 10346245 | 11909125 |
 
 
 ### Learning rate decay step size (step_size)
