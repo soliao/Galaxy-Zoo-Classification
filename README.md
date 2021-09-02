@@ -37,6 +37,28 @@ Test acc:
 | Total trainable params | 10926085 | 10019845 | 10188805 | 10346245 | 11909125 |
 
 
+### Starting learning rate (lr)
+
+| Model | benchmark | lr_1e2 | lr_5e3 | lr_1e3 | lr_5e4 | lr_1e4 | lr_5e5 |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| **Train Acc** | **0.7736** | 0.6133 |  |  |  |  |  |
+| **Val Acc** | **0.7627** | 0.6119 |  |  |  |  |  |
+| **Test Acc** | **0.7625** | 0.6164 |  |  |  |  |
+| PATCH_SIZE | 28 | - | - | - | - | - | - |
+| SEQ_LEN | 65 | -  | -  | -  | - | - | - |
+| DEPTH | 12 | - | - | - | - | - | -  |
+| HIDDEN_DIM | 256 | - | - | - | - | - | - |
+| k_DIM | 64 | - | - | - | - | - | - |
+| NUM_HEADS | 8 | - | - | - | - | - | - |
+| BATCH_SIZE | 64 | - | - | - | - | - | - |
+| lr | 3e-4 | 1e-2 | 5e-3 | 1e-3 | 5e-4 | 1e-4 | 5e-5 |
+| step_size | 1 | - | - | - | - | - | - |
+| gamma | 0.9 | - | - | - | - | - | - |
+| best_epoch | 32 | 25 |  |  |  |  |  |
+| stop_epoch | 42 | 35 |  |  |  |  |  |
+| Total trainable params | 10188805 | - | - | - | - | - | -  |
+
+
 ### Learning rate decay step size (step_size)
 
 | Model | benchmark | ss_5 | ss_10 | ss_20 |
