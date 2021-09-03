@@ -100,4 +100,4 @@ Test acc:
 | gamma | 0.9 | | | |  |  |  |
 | best_epoch | 32 | 36 | ? | ? |  |  |  |
 | stop_epoch | 42 | 46 | ? | ? |  |  |  |
-| Total trainable params | 10346245 | 2215685 |  |  |  |  |  |
+| Total trainable params | 10346245 | 2215685 | 3810309 |  |  |  |  |
