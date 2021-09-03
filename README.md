@@ -6,7 +6,7 @@ Classify the morphologies of distant galaxies
 
 Training acc: 0.830
 Validation acc: 0.813
-Test acc: 
+Test acc: 0.8241
 
 
 
