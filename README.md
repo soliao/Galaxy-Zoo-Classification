@@ -54,8 +54,8 @@ Test acc:
 | lr | 3e-4 | 1e-2 | 5e-3 | 1e-3 | 5e-4 | 1e-4 | 5e-5 |
 | step_size | 1 | - | - | - | - | - | - |
 | gamma | 0.9 | - | - | - | - | - | - |
-| best_epoch | 32 | 25 | 37 |  |  |  |  |
-| stop_epoch | 42 | 35 | 47 |  |  |  |  |
+| best_epoch | 32 | 25 | 42 | 37 |  |  |  |
+| stop_epoch | 42 | 35 | 52 | 47 |  |  |  |
 | Total trainable params | 10188805 | - | - | - | - | - | -  |
 
 
