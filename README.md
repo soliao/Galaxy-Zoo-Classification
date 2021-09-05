@@ -136,9 +136,9 @@ Test acc: 0.8241
 
 | Model | benchmark | dropout_05 | dropout_01 |
 | ----------- | ----------- | ----------- | ----------- |
-| **Train Acc** | 0.7923 | 0.7647 |  |
-| **Val Acc** | 0.7741 | 0.7591 |  |
-| **Test Acc** | **0.7746** | 0.7554 |  |
+| **Train Acc** | 0.7923 | 0.7647 | 0.8100 |
+| **Val Acc** | 0.7741 | 0.7591 | 0.7790 |
+| **Test Acc** | **0.7746** | 0.7554 | 0.7759 |
 | PATCH_SIZE | 28 | - | - |
 | SEQ_LEN | 65 | -  | -  |
 | DEPTH | 12 | - | - |
@@ -150,6 +150,6 @@ Test acc: 0.8241
 | step_size | 5 | - | - |
 | gamma | 0.9 | - | - |
 | dropout | 0.0 | 0.5 | 0.1 |
-| best_epoch | 54 | 31 |  |
-| stop_epoch | 64 | 41 |  |
+| best_epoch | 54 | 31 | 78 |
+| stop_epoch | 64 | 41 | 88 |
 | Total trainable params | 2,785,029 | - | - |
