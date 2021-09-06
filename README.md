@@ -153,3 +153,14 @@ Test acc: 0.8241
 | best_epoch | 54 | 31 | 78 |
 | stop_epoch | 64 | 41 | 88 |
 | Total trainable params | 2,785,029 | - | - |
+
+---
+
+## Google Cloud AI Platform Training
+
+References:
+
+1. [getting started](https://cloud.google.com/ai-platform/docs/getting-started-keras)
+2. [training pricing](https://cloud.google.com/ai-platform/training/pricing)
+3. [prediction pricing](https://cloud.google.com/ai-platform/training/pricing)
+4.
