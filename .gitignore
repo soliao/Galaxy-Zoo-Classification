@@ -1,3 +1,4 @@
 gcp/*
 *.pth
 *.png
+model_parameters.md
