@@ -1,17 +1,97 @@
 # Kaggle-Galaxy-Zoo-Classification
 Classify the morphologies of distant galaxies
 
+---
+
+## Galaxy Zoo 2 Dataset
+
+
+## Class labels
 
 
 
 
 
+## ResNet-50
+
+**Parameters**
+```
+BATCH_SIZE = 64
+
+LR = 5e-5
+STEP_SIZE = 10
+GAMMA = 0.1
+MAX_EPOCH = 200
+```
+
+**Results**\
+Train Accuracy = 0.8737\
+Validation Accuracy = 0.8538\
+Test Accuracy = 0.8550
+
+[![resnet50-bs64-lr5e5-ss10-g10-testacc8550.png](https://i.postimg.cc/WpHZfgRZ/resnet50-bs64-lr5e5-ss10-g10-testacc8550.png)](https://postimg.cc/3W2Wkyxr)
 
 
 
-## Old Galaxy Zoo Classification
+## Vision Transformer
+
+### Curent best model
+
+**Parameters**
+```
+PATCH_SIZE = 28
+DEPTH = 12
+HIDDEN_DIM = 128
+K_DIM = 64
+NUM_HEADS = 8
+
+LR = 5e-5
+STEP_SIZE = 10
+GAMMA = 0.1
+MAX_EPOCH = 200
+
+# Linformer dropout = 0.1
+```
+
+**Results**
+
+Train Accuracy = 0.8347\
+Validation Accuracy = 0.8013\
+Test Accuracy = 0.8023
+
+[![vit-hiddendim-128-dropout01.png](https://i.postimg.cc/Vkt3pqdH/vit-hiddendim-128-dropout01.png)](https://postimg.cc/PCt388bm)
+
+---
+#### 2
+**Parameters**
+
+```
+PATCH_SIZE = 28
+DEPTH = 12
+HIDDEN_DIM = 512
+K_DIM = 64
+NUM_HEADS = 8
+
+LR = 5e-5
+STEP_SIZE = 10
+GAMMA = 0.1
+MAX_EPOCH = 200
+
+# Linformer dropout = 0.2
+```
+
+[![vit-hiddendim-512-dropout02.png](https://i.postimg.cc/28GqvWzM/vit-hiddendim-512-dropout02.png)](https://postimg.cc/N5yfv52k)
+
+---
+
+
+---
+
+## Cache: The Old Galaxy Zoo Dataset
 
 Below shows the performance of using ResNet-50 and Vision Transformer (ViT) to classify old galaxy zoo dataset (61,578 images in total).
+
+
 
 ## ResNet-50
 
