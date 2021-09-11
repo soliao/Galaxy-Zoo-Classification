@@ -1,5 +1,4 @@
 gcp/*
 *.pth
 *.png
-model_parameters.md
 .ipynb_checkpoints/
