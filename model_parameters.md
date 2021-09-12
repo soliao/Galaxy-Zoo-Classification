@@ -3,6 +3,28 @@
 
 ## ViT
 
+**gz2_vit_09112021_1110**
+```
+patch_size = 28
+depth = 12
+hidden_dim = 128
+k_dim = 64
+num_heads = 16
+dropout = 0.1
+batch_size = 64
+lr = 0.0003
+step_size = 5
+gamma = 0.9
+max_epoch = 200
+===============================
+Number of trainable parameters: 2785416
+===============================
+transform mean = [0.094, 0.0815, 0.063]
+transform std = [0.1303, 0.11, 0.0913]
+```
+0.8076 / 0.7979 / 0.7959
+
+
 **gz2_vit_09092021_2125**
 ```
 patch_size = 14
