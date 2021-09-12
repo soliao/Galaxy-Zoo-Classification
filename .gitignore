@@ -2,3 +2,7 @@ gcp/*
 *.pth
 *.png
 .ipynb_checkpoints/
+*.zip
+images_train/*
+images_valid/*
+images_test/*
