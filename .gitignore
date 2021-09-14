@@ -6,3 +6,5 @@ gcp/*
 images_train/*
 images_valid/*
 images_test/*
+gz2_vit_09*.csv
+*local*.ipynb
