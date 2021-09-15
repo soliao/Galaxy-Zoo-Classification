@@ -3,6 +3,53 @@
 
 ## ViT
 
+**gz2_vit_09152021_0140**
+```
+patch_size = 14
+depth = 12
+hidden_dim = 128
+k_dim = 64
+num_heads = 8
+dropout = 0.1
+batch_size = 64
+lr = 0.0003
+step_size = 10
+gamma = 0.1
+max_epoch = 200
+===============================
+Number of trainable parameters: 2879112
+===============================
+transform mean = [0.094, 0.0815, 0.063]
+transform std = [0.1303, 0.11, 0.0913]
+===============================
+torch.FloatTensor([1., 1., 2., 1., 1., 1., 2., 3.])
+```
+
+**gz2_vit_09142021_0902**
+```
+patch_size = 28
+depth = 12
+hidden_dim = 128
+k_dim = 64
+num_heads = 8
+dropout = 0.1
+batch_size = 64
+lr = 0.0005
+step_size = 200
+gamma = 1
+max_epoch = 200
+===============================
+Number of trainable parameters: 2785416
+===============================
+transform mean = [0.094, 0.0815, 0.063]
+transform std = [0.1303, 0.11, 0.0913]
+===============================
+```
+0.8273 / 0.8022 / 0.8004
+
+[![gz2-vit-09142021-0902.png](https://i.postimg.cc/kGc8M5vj/gz2-vit-09142021-0902.png)](https://postimg.cc/T5KhCfSm)
+
+
 **gz2_vit_09112021_1110**
 ```
 patch_size = 28
