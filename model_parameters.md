@@ -3,6 +3,36 @@
 
 ## ViT
 
+**gz2_vit_09152021_1500**
+```
+patch_size = 14
+depth = 12
+hidden_dim = 128
+k_dim = 64
+num_heads = 8
+dropout = 0.1
+batch_size = 64
+lr = 0.0003
+step_size = 5
+gamma = 0.1
+max_epoch = 200
+===============================
+Number of trainable parameters: 2879112
+===============================
+transform mean = [0.094, 0.0815, 0.063]
+transform std = [0.1303, 0.11, 0.0913]
+===============================
+torch.FloatTensor([1., 1., 2., 1., 1., 1., 2., 3.])
+```
+
+
+
+
+---
+### Augmented validation datasets
+
+
+
 **gz2_vit_09152021_0140**
 ```
 patch_size = 14
@@ -24,6 +54,8 @@ transform std = [0.1303, 0.11, 0.0913]
 ===============================
 torch.FloatTensor([1., 1., 2., 1., 1., 1., 2., 3.])
 ```
+
+0.7972 / 0.7918 / 0.7925
 
 **gz2_vit_09142021_0902**
 ```
