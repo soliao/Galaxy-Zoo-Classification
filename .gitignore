@@ -12,3 +12,6 @@ trained_models/*
 notebooks/*
 classAll_4label_temp.csv
 old_ver_readme.md
+
+model_parameters.md
+gz2_resnet50*e33.csv
