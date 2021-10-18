@@ -1,7 +1,10 @@
-# Kaggle-Galaxy-Zoo-Classification
-Classify the morphologies of distant galaxies
+# Galaxy Morphological Classification with Efficient Vision Transformer
 
----
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-2110.01024-yellowgreen.svg)](https://arxiv.org/abs/2110.01024)
+
+[![vit-oo.png](https://i.postimg.cc/dt1gky53/vit-oo.png)](https://postimg.cc/F1MTw75X)
+
 
 ## Galaxy Zoo 2 Dataset
 
