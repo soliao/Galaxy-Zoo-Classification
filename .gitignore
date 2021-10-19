@@ -19,3 +19,6 @@ gz2_resnet50*e33.csv
 GalaxyZoo2_ViT_Pytorch.ipynb
 
 galaxyZoo/*
+
+gz2_ViT_Pytorch.ipynb
+ViT_distillation.ipynb
