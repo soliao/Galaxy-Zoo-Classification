@@ -62,6 +62,8 @@ The code for training the ViT model can be found in the Jupyter Notebook: `gz2_V
 
 The code for training CNN models can be found in `gz2_Resnet50_Pytorch.ipynb` or `gz2_VGG16bn_Pytorch.ipynb`
 
+The directory `data_preprocess` contains the codes used for data preprocessing and analysis of class composition.
+
 
 ## Hyperparameters
 
