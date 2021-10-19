@@ -1,9 +1,9 @@
 # Galaxy Morphological Classification with Efficient Vision Transformer
----
-Repository of the paper **Galaxy Morphological Classification with Efficient Vision Transformer** by Joshua Yao-Yu Lin, Song-Mao Liao, Hung-Jin Huang, Wei-Ting Kuo, and Olivia Hsuan-Min Ou.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![arXiv](https://img.shields.io/badge/arXiv-2110.01024-yellowgreen.svg)](https://arxiv.org/abs/2110.01024)
+
+Repository of the paper **Galaxy Morphological Classification with Efficient Vision Transformer** by Joshua Yao-Yu Lin, Song-Mao Liao, Hung-Jin Huang, Wei-Ting Kuo, and Olivia Hsuan-Min Ou.
 
 ## Abstract
 
@@ -35,31 +35,38 @@ We find that ViT performs better than CNN in classifying smaller and fainter gal
 
 [![vit-fig4.png](https://i.postimg.cc/d0fSmnnD/vit-fig4.png)](https://postimg.cc/qt8LpsPd)
 
+Figures used in the paper can be produced by the notebooks in the directory `figures/`.
+
 ## Dataset
 
 [The Galaxy Zoo Dataset](https://data.galaxyzoo.org/)
 
 The galaxy dataset used in this study is based on the Galaxy Zoo 2 Project2 (GZ2), with the
-morphological information drawn from the catalog of Hart et al. [39], and the galaxy images downloaded from kaggle.
+morphological information drawn from the catalog of Hart et al., and the galaxy images downloaded from [kaggle](https://www.kaggle.com/jaimetrickz/galaxy-zoo-2-images).
 
-The size of each image is `shape = (424, 424,  3)`, with the color channels corresponding the g, r, i filters of the SDSS.
+The size of each image is `shape = (424, 424, 3)`, with the color channels corresponding the g, r, i filters of the SDSS.
 
-We construct a clean galaxy dataset with eight distinct classes and label them from 0 - 7 in the order of:
+We construct a clean galaxy dataset with eight distinct classes and label them from 0 to 7 in the order of:
 round elliptical, in-between elliptical, cigar-shaped elliptical, edge-on, barred spiral, unbarred spiral,
 irregular and merger galaxies:
 
 [![vit-fig2.png](https://i.postimg.cc/Ls5zjjJC/vit-fig2.png)](https://postimg.cc/HJGcgc4X)
 
-Our final baseline dataset consists of 155,951 images. We split the data into 64% train set, 16% validation set, and 20% test set. We crop images into `shape = (224, 224, 3)` and use data augmentation techniques by flipping and rotating the images.
+Our final baseline dataset consists of 155,951 images. We split the data into 64% train set, 16% validation set, and 20% test set. We crop images into `shape = (224, 224, 3)` and use data augmentation techniques by flipping and rotating the images.
 
+Original images of all galaxies can be found in the [Galaxy Zoo Dataset](https://data.galaxyzoo.org/). The galaxy IDs and their corresponding class labels are stored in `gz2_data/gz2_train.csv`, `gz2_data/gz2_valid.csv`, and `gz2_data/gz2_test.csv`.
 
 ## Code
 
-The Jupyter Notebook `gz2_ViT_Linformer_Pytorch.pytorch`.
+The code for training the ViT model can be found in the Jupyter Notebook: `gz2_ViT_Linformer_Pytorch.ipynb`
 
+The code for training CNN models can be found in `gz2_Resnet50_Pytorch.ipynb` or `gz2_VGG16bn_Pytorch.ipynb`
 
 
 ## Hyperparameters
+
+Below lists the hyperparameters used in training.
+
 **ViT Linformer**
 ```
 PATCH_SIZE = 28
