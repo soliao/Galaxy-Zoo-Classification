@@ -22,3 +22,5 @@ galaxyZoo/*
 
 gz2_ViT_Pytorch.ipynb
 ViT_distillation.ipynb
+
+model/*
