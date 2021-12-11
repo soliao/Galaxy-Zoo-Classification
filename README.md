@@ -102,6 +102,27 @@ LIN_DROPOUT = 0.1
 class_weights = [1., 1., 1., 1., 1., 1., 1., 1.]
 ```
 
+**Vision Transformer**
+```
+PATCH_SIZE = 16
+DEPTH = 8
+HIDDEN_DIM = 256
+K_DIM = 64
+NUM_HEADS = 8
+
+LR = 3e-4
+STEP_SIZE = 5
+GAMMA = 0.9
+MAX_EPOCH = 200
+
+DROPOUT = 0.1
+EMB_DROPOUT = 0.1
+
+class_weights = [1., 1., 1., 1., 1., 1., 1., 1.]
+```
+Train Acc: 82.61%\
+Val Acc: 81.5%\
+Test Acc: 81.66%
 
 **ResNet-50**
 ```
