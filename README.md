@@ -79,6 +79,10 @@ The code for training CNN models can be found in `gz2_Resnet50_Pytorch.ipynb` or
 
 The directory `data_preprocess` contains the codes used for data preprocessing and analysis of class composition.
 
+`gz2_pretrained_ViT.ipynb` uses pretrained ViT (from HuggingFace) and achieves a better performance.
+
+`gz2_ViT_attention_maps.ipynb` generates the attentions maps of the galaxy images
+
 
 ## Hyperparameters
 
