@@ -127,17 +127,17 @@ fine-tuned: 85,804,808 trainable parameters
 | test_acc | 68.11 | 68.27 | 83.33 (8 ep)  | 84.41 | X | 83.60 | 84.53 |
 
 
-| Params | 121521 |
-| --- | --- |
-| batch_size | 64 |
-| lr | 5e-5 |
-| step_size | 200 |
-| gamma | 1.0 |
-| fine_tune | yes |
-|  |  |
-| train_acc | 69.63 |
-| valid_acc | 67.97 |
-| test_acc | 68.11 |
+| Params | 121521 | 122821 |
+| --- | --- | --- |
+| batch_size | 64 | 64 |
+| lr | 5e-5 | 1e-3 |
+| step_size | 200 | 1 |
+| gamma | 1.0 | 0.1 |
+| fine_tune | yes | yes |
+|  |  |  |
+| train_acc | 69.63 | 67.15 |
+| valid_acc | 67.97 | 67.49 |
+| test_acc | 68.11 | 67.37 |
 
 
 
