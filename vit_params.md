@@ -186,21 +186,21 @@ fine-tuned: 85,804,808 trainable parameters
 | test_acc | 80.55^ | 80.83 | 80.36 | 80.88 | 81.03 | 80.17 | 80.75 | 80.99 | 80.05 |
 
 
-| Params | 010222 | 010222B |
-| --- | --- | --- |
-| shared_kv |  |  |
-| batch_size |  |  |
-| patch_size |  |  |
-| depth |  |  |
-| dim |  |  |
-| k_dim |  |  |
-| num_heads |  |  |
-| dropout |  |  |
-| lr |  |  |
-| step_size |  |  |
-| gamma |  |  |
-| # params |  |  |
-|  |  |  |
-| train_acc |  |  |
-| valid_acc |  |  |
-| test_acc |  |  |
+| Params | 010222 | 010222B | 010322 | 010322B |
+| --- | --- | --- | --- | --- |
+| shared_kv | False | True | False | False |
+| batch_size | 64 | 64 | 64 | 64 |
+| patch_size | 16 | 16 | 16 | 16 |
+| depth | 12 | 12 | 10 | 8 |
+| dim | 128 | 128 | 128 | 128 |
+| k_dim | 32 | 32 | 16 | 16 |
+| num_heads | 8 | 8 | 8 | 8 |
+| dropout | 0.1 | 0.1 | 0.1 | 0.1 |
+| lr | 3e-4 | 3e-4 | 3e-4 | 3e-4 |
+| step_size | 5 | 5 | 5 | 5 |
+| gamma | 0.9 | 0.9 | 0.9 | 0.9 |
+| # params | 2,651,016 | 2,378,760 | 2,166,984 |  |
+|  |  |  |  |
+| train_acc | 82.62 | 84.41 |  |  |
+| valid_acc | 80.59 | 80.88 |  |  |
+| test_acc | 80.69 | 80.49 |  |  |
