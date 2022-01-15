@@ -153,17 +153,17 @@ fine-tuned: 85,804,808 trainable parameters
 | test_acc | 84.93 | 85.00 | 84.94 | 85.06 | 84.92 | 83.99 | 84.92 | 85.01 | 85.02 |
 
 
-| Params | 011422 |
-| --- | --- |
-| batch_size | 64 |
+| Params | 011422 | 011422B |
+| --- | --- | --- |
+| batch_size | 64 | 64 |
 | lr | 5e-5 | 5e-5 |
-| step_size | 1 |
-| gamma | 0.9 |
-| fine_tune | yes |
+| step_size | 1 | 5 |
+| gamma | 0.9 | 0.9 |
+| fine_tune | yes | yes |
 |  |  |  |
-| train_acc |  |
-| valid_acc |  |
-| test_acc |  |
+| train_acc | 87.96 |  |
+| valid_acc | 84.03 |  |
+| test_acc | 84.07 |  |
 
 
 
