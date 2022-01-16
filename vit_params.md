@@ -161,9 +161,9 @@ fine-tuned: 85,804,808 trainable parameters
 | gamma | 0.9 | 0.9 | 0.5 |
 | fine_tune | yes | yes | yes |
 |  |  |  |  |
-| train_acc | 87.96 | 86.86 |  |
-| valid_acc | 84.03 | 83.72 |  |
-| test_acc | 84.07 | 83.84 |  |
+| train_acc | 87.96 | 86.86 | 87.98 |
+| valid_acc | 84.03 | 83.72 | 84.22 |
+| test_acc | 84.07 | 83.84 | 84.23 |
 
 
 
