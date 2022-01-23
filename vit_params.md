@@ -166,6 +166,10 @@ fine-tuned: 85,804,808 trainable parameters
 | test_acc | 84.07 | 83.84 | 84.23 |
 
 
+**Weighted loss**
+
+Use [0.19, 0.21, 0.98, 0.38, 0.53, 0.66, 1.81, 3.2] --> 84.47% | 82.3% | 82.51%
+
 
 ## Linformer hyperparameters
 
