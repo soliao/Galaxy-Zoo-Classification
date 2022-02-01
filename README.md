@@ -58,7 +58,7 @@ The galaxy dataset used in this study is based on the Galaxy Zoo 2 Project2 (GZ2
 
 The size of each image is `shape = (424, 424, 3)`, with the color channels corresponding the g, r, i filters of the SDSS.
 
-We construct a clean galaxy dataset with eight distinct classes and label them from 0 to 7 in the order of:
+We construct a clean galaxy dataset with eight distinct classes and label them from 0 to 7 in the order of:
 round elliptical, in-between elliptical, cigar-shaped elliptical, edge-on, barred spiral, unbarred spiral,
 irregular and merger galaxies:
 
